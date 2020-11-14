@@ -32,5 +32,5 @@ public class ArrayGenerator {
             System.out.println();
         }
     }
-
 }
+
