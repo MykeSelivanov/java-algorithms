@@ -138,6 +138,5 @@ public class MyLinkedList {
             current = current.next;
         }
     }
-
-
 }
+
