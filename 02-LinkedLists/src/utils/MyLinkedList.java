@@ -5,13 +5,13 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
-public class MyLinkedList {
+public class MyLinkedList <T> {
 
     public class Node {
         public Object value;
         public Node next;
 
-        public Node(Object value) {
+        public Node(T value) {
             this.value = value;
         }
     }
@@ -43,7 +43,7 @@ public class MyLinkedList {
         return previous;
     }
 
-    public void addFirst(Object value){
+    public void addFirst(T value){
         var node = new Node(value);
         System.out.println("Adding |" + value + "| as a first Node");
         if (isEmpty()) first = last = node;
@@ -54,7 +54,7 @@ public class MyLinkedList {
         size++;
     }
 
-    public void addLast(Object value){
+    public void addLast(T value){
         var node = new Node(value);
         System.out.println("Adding |" + value + "| as a last Node");
         if (isEmpty()) first = last = node;
@@ -94,7 +94,7 @@ public class MyLinkedList {
         size--;
     }
 
-    public int indexOf(Object item) {
+    public int indexOf(T item) {
         int index = 0;
         var current = first;
         while (current != null) {
@@ -107,7 +107,7 @@ public class MyLinkedList {
         return -1;
     }
 
-    public boolean contains(Object item){
+    public boolean contains(T item){
         var current = first;
         while (current != null) {
             if (current.value == item) return true;
