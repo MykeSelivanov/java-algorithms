@@ -8,7 +8,6 @@ public class FindFirstNonRepeatedCharacter {
         String str = "check this string for the first unique char";
 
         System.out.println(findFirstNonRepeatedChar(str));
-
     }
 
     public static char findFirstNonRepeatedChar(String str) throws Exception {
