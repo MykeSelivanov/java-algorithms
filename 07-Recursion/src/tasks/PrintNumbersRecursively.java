@@ -1,3 +1,5 @@
+package tasks;
+
 public class PrintNumbersRecursively {
 
     public static void main(String[] args) {
