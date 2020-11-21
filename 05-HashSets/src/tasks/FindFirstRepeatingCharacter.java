@@ -21,5 +21,4 @@ public class FindFirstRepeatingCharacter {
         }
         throw new Exception("All characters are unique!");
     }
-
 }
