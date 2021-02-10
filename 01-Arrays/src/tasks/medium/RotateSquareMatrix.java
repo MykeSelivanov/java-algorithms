@@ -1,4 +1,4 @@
-package tasks;
+package tasks.medium;
 
 //TODO
 // Rotate an (n x n) matrix 90 degrees clockwise in place
