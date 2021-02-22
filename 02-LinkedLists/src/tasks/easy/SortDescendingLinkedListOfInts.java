@@ -1,4 +1,4 @@
-package tasks;
+package tasks.easy;
 
 //TODO
 //  Sort the singly linked list of integers in descending order without using any sort algorithm

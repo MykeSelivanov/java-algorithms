@@ -1,4 +1,4 @@
-package tasks;
+package tasks.medium;
 
 //TODO
 // Check the singly linked list if it is Palindrome (Without a stack)

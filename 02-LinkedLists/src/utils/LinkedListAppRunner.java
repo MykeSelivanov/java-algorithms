@@ -1,7 +1,7 @@
 package utils;
 
-import tasks.FindKthNodeFromTail;
-import tasks.ReverseNodes;
+import tasks.medium.FindKthNodeFromTail;
+import tasks.easy.ReverseNodes;
 
 public class LinkedListAppRunner {
     public static void main(String[] args) throws Exception {

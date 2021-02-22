@@ -1,4 +1,4 @@
-package tasks;
+package tasks.medium;
 
 //TODO
 // Finding the Kth node from the end in one pass where you don’t know the size of the list.

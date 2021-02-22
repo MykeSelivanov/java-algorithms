@@ -1,4 +1,4 @@
-package tasks;
+package tasks.easy;
 
 //TODO
 // Reversing the nodes of a singly linked lists in one pass

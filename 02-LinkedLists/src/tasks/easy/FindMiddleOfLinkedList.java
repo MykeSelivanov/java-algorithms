@@ -1,4 +1,4 @@
-package tasks;
+package tasks.easy;
 
 import utils.MyLinkedList;
 
