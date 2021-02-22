@@ -26,11 +26,23 @@ public class RemoveDuplicatesFromLinkedList {
        myLinkedList.addLast(6);
        myLinkedList.printLinkedList();
 
+       removeDuplicatesFromLinkedList(myLinkedList);
+       myLinkedList.printLinkedList();
+
 
     }
 
     public static MyLinkedList removeDuplicatesFromLinkedList(MyLinkedList listWithDupes){
-
+        var current = listWithDupes.first;
+        while (current != null) {
+            var subsequent = current.next;
+            while (subsequent != null && subsequent.value == current.value){
+                subsequent = subsequent.next;
+            }
+            current.next = subsequent;
+            current = subsequent;
+        }
+        return listWithDupes;
     }
 
 
